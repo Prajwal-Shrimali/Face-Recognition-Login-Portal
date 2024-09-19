@@ -1,0 +1,60 @@
+body {
+  background-image: url("https://asset.gecdesigns.com/img/wallpapers/starry-night-sky-reflection-background-hd-wallpaper-sr10012425-1705222416280-cover.webp");
+  background-size: cover;
+  margin: 0;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.loginPart {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  width: 40%; /* Set a fixed width to contain the text box */
+  max-width: 90%; /* Ensure responsiveness */
+}
+
+.loginPart h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 30px; /* Reduce font size to fit the smaller container */
+}
+
+.inputField {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background: transparent;
+  width: 100%; /* Ensure the text box fits inside the container */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  color: white;
+}
+
+.inputField::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Transparent white for placeholder */
+}
+
+.loginButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%; /* Make the button the same width as the input */
+  
+}
+
+.loginButton:hover {
+  background-color: #45a049;
+}

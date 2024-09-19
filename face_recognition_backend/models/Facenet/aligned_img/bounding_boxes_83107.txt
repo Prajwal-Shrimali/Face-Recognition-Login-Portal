@@ -1,0 +1,178 @@
+./aligned_img\om\20221201_113531.png
+./aligned_img\om\20230213_181349.png 1523 1141 1550 1174
+./aligned_img\om\20230213_181352.png
+./aligned_img\om\20230213_181432.png 1976 763 1994 784
+./aligned_img\om\20230213_181448.png 3395 650 3417 682
+./aligned_img\om\20230213_181450.png 2351 1804 2383 1838
+./aligned_img\om\20230213_181508.png 2718 1517 2733 1537
+./aligned_img\om\20230302_224726.png 1573 1238 1652 1343
+./aligned_img\om\20230308_100422.png 1288 543 1671 1062
+./aligned_img\om\20230308_100450.png 953 764 1367 1284
+./aligned_img\om\20230308_100455.png 1198 1042 1576 1506
+./aligned_img\om\20230308_100457.png 1512 897 1967 1486
+./aligned_img\om\20230312_153246.png 1943 1089 2250 1502
+./aligned_img\om\20230312_153248.png 1921 1349 2194 1729
+./aligned_img\om\20230825_205205.png 1739 1532 1800 1612
+./aligned_img\om\20230918_091651.png 2044 1992 2248 2255
+./aligned_img\om\20230918_113517.png 1205 1350 1494 1718
+./aligned_img\om\20230925_173523.png 1231 1844 1320 1952
+./aligned_img\om\20230925_173533.png 1256 1962 1352 2085
+./aligned_img\om\20231004_230706.png 2031 1964 2053 1991
+./aligned_img\om\20240125_133419.png
+./aligned_img\om\20240125_133421.png 3136 1873 3215 1969
+./aligned_img\om\20240125_133424.png 974 914 1440 1474
+./aligned_img\om\20240125_133425.png
+./aligned_img\om\20240125_133426.png 2090 1454 2110 1479
+./aligned_img\om\20240125_142839.png 1113 1019 1894 1796
+./aligned_img\om\20240125_142842.png 1153 1068 1823 1856
+./aligned_img\om\20240126_165711.png 1465 2587 1485 2611
+./aligned_img\om\20240126_165734.png 2622 1766 2901 2088
+./aligned_img\om\20240126_165736.png 2334 1681 2672 2060
+./aligned_img\om\20240126_165739.png 2260 2659 2278 2681
+./aligned_img\om\20240126_234619.png
+./aligned_img\om\20240127_071733.png 1638 1069 2188 1847
+./aligned_img\om\20240127_071740.png
+./aligned_img\om\20240127_071743.png 2484 1217 2709 1626
+./aligned_img\om\IMG-20221216-WA0008.png 495 388 547 449
+./aligned_img\om\IMG-20221220-WA0009.png 916 354 1017 490
+./aligned_img\om\IMG-20230115-WA0005.png 370 501 404 542
+./aligned_img\om\IMG-20230116-WA0016.png 158 257 598 827
+./aligned_img\om\IMG-20230129-WA0012.png 569 293 673 422
+./aligned_img\om\IMG-20230130-WA0024.png 689 73 754 156
+./aligned_img\om\IMG-20230130-WA0025.png 496 813 667 1057
+./aligned_img\om\IMG-20230131-WA0012.png 569 293 673 422
+./aligned_img\om\IMG-20230209-WA0006.png 837 289 1034 547
+./aligned_img\om\IMG-20230210-WA0010.png 175 159 349 384
+./aligned_img\om\IMG-20230212-WA0026.png 909 624 973 701
+./aligned_img\om\IMG-20230214-WA0035.png 661 242 795 410
+./aligned_img\om\IMG-20230228-WA0004.png 216 514 455 821
+./aligned_img\om\IMG-20230314-WA0005.png 614 350 657 415
+./aligned_img\om\IMG-20230315-WA0003.png 905 148 1118 419
+./aligned_img\om\IMG-20230327-WA0001.png 527 553 912 1025
+./aligned_img\om\IMG-20230327-WA0005.png 352 424 742 914
+./aligned_img\om\IMG-20230404-WA0025.png 732 171 1023 534
+./aligned_img\om\IMG-20230408-WA0030.png 409 363 773 866
+./aligned_img\om\IMG-20230409-WA0010.png 440 682 488 758
+./aligned_img\om\IMG-20230609-WA0003.png 252 365 420 590
+./aligned_img\om\IMG-20230610-WA0058.png 166 321 353 546
+./aligned_img\om\IMG-20230610-WA0060.png 623 494 692 581
+./aligned_img\om\IMG-20230725-WA0006.png 215 502 657 1053
+./aligned_img\om\IMG-20230804-WA0014.png
+./aligned_img\om\IMG-20230829-WA0009.png 289 145 447 344
+./aligned_img\om\IMG-20230830-WA0003.png 174 517 574 1027
+./aligned_img\om\IMG-20230907-WA0034.png 268 176 452 405
+./aligned_img\om\IMG-20230911-WA0013.png 226 116 345 275
+./aligned_img\om\IMG-20230918-WA0064.png 851 159 1078 422
+./aligned_img\om\IMG-20230925-WA0057.png 400 876 441 927
+./aligned_img\om\IMG-20231008-WA0027.png 191 301 382 547
+./aligned_img\om\IMG-20231008-WA0028.png 359 579 528 778
+./aligned_img\om\IMG-20231017-WA0014.png 258 41 317 105
+./aligned_img\om\IMG-20231017-WA0021.png
+./aligned_img\prajwal\20200830_234655.png 1947 1713 1964 1735
+./aligned_img\prajwal\20200830_235605.png 233 191 590 638
+./aligned_img\prajwal\20200831_000053.png 108 82 245 250
+./aligned_img\prajwal\20201009_233223.png 2213 1827 2237 1856
+./aligned_img\prajwal\20201009_233335.png 190 198 549 636
+./aligned_img\prajwal\20201009_233805.png 2307 1576 2323 1598
+./aligned_img\prajwal\20201009_233837.png 156 152 448 514
+./aligned_img\prajwal\20201027_173316.png
+./aligned_img\prajwal\20201027_173320.png 3919 803 3999 914
+./aligned_img\prajwal\20201027_173511.png 382 522 1297 1678
+./aligned_img\prajwal\20210919_181522.png 2125 691 2144 715
+./aligned_img\prajwal\20210919_181523.png 2743 305 2766 330
+./aligned_img\prajwal\20210919_181524.png
+./aligned_img\prajwal\20210919_181525.png
+./aligned_img\prajwal\20220118_145342.png
+./aligned_img\prajwal\20220118_151625.png
+./aligned_img\prajwal\20220709_192021.png 2042 905 2242 1145
+./aligned_img\prajwal\20220709_192022.png 1657 1726 1703 1787
+./aligned_img\prajwal\20220709_192027.png 2250 1095 2478 1358
+./aligned_img\prajwal\20220709_192048.png 1594 1720 1630 1761
+./aligned_img\prajwal\20220709_192049.png 1899 1493 1917 1516
+./aligned_img\prajwal\20220709_192051.png 1612 374 2584 1426
+./aligned_img\prajwal\20220714_105638.png 1372 976 1397 1004
+./aligned_img\prajwal\20220714_105641.png 1497 667 2344 1667
+./aligned_img\prajwal\20220715_101337.png 2703 1017 2723 1040
+./aligned_img\prajwal\20220715_101658.png 1947 1389 1968 1413
+./aligned_img\prajwal\20220715_101709.png
+./aligned_img\prajwal\20220715_101757.png
+./aligned_img\prajwal\20220715_101758.png
+./aligned_img\prajwal\20220715_102155.png 1481 1407 1692 1663
+./aligned_img\prajwal\20220715_102158.png 1269 2298 1312 2348
+./aligned_img\prajwal\20220715_102405.png 1504 477 2393 1567
+./aligned_img\prajwal\20220715_102409.png 1496 422 2382 1491
+./aligned_img\prajwal\20220715_102732.png 1760 1743 1789 1779
+./aligned_img\prajwal\20220715_102735.png 1862 1622 1894 1661
+./aligned_img\prajwal\20220715_102739.png 2491 674 2773 1026
+./aligned_img\prajwal\20220715_103215.png 3808 1298 3830 1326
+./aligned_img\prajwal\20220715_103218.png 2566 830 2725 1027
+./aligned_img\prajwal\20220715_103226.png 1979 1062 2105 1199
+./aligned_img\prajwal\20220715_103232.png 2461 1309 2612 1500
+./aligned_img\prajwal\20220715_103407.png 1778 454 2399 1267
+./aligned_img\prajwal\20220715_103410.png 552 716 1243 1574
+./aligned_img\prajwal\20220715_103616.png 1676 577 2404 1509
+./aligned_img\prajwal\20220715_103834.png 1864 883 2599 1741
+./aligned_img\prajwal\20220715_103837.png 1745 1395 1768 1424
+./aligned_img\prajwal\20220715_105830.png 2740 1665 2760 1691
+./aligned_img\prajwal\20220715_105842.png 3822 1666 3843 1695
+./aligned_img\prajwal\20220715_105848.png 334 2486 398 2572
+./aligned_img\prajwal\20220715_105849.png 3757 890 3777 915
+./aligned_img\prajwal\20220715_105850.png 1768 1598 1882 1722
+./aligned_img\prajwal\20220715_194634.png 2626 1536 2848 1824
+./aligned_img\prajwal\20220923_091330.png
+./aligned_img\prajwal\20220927_235538.png 1033 498 1723 1289
+./aligned_img\prajwal\20221227_171235.png
+./aligned_img\prajwal\20221227_171236.png 430 1029 1264 1942
+./aligned_img\prajwal\20221227_171239.png
+./aligned_img\prajwal\20221227_171252.png 1748 287 2057 803
+./aligned_img\prajwal\20230108_164257.png 1822 1398 2128 1742
+./aligned_img\prajwal\20230127_151546.png 2551 2242 2582 2281
+./aligned_img\prajwal\20230213_120400.png 3398 695 3418 720
+./aligned_img\prajwal\20230213_120402.png 2265 1789 2303 1841
+./aligned_img\prajwal\20230213_120630.png 2127 2319 2151 2349
+./aligned_img\prajwal\20230213_120632.png 2250 2645 2316 2720
+./aligned_img\prajwal\20230213_120640.png 1927 591 2321 1082
+./aligned_img\prajwal\20230213_120643.png 1924 589 2320 1068
+./aligned_img\prajwal\20230213_121012.png 1789 891 1813 916
+./aligned_img\prajwal\20230213_121014.png 1616 925 1640 951
+./aligned_img\prajwal\20240128_152224.png 1906 2127 1944 2177
+./aligned_img\prajwal\20240128_152227.png 1547 1181 1993 1710
+./aligned_img\prajwal\IMG-20220118-WA0035.png 3317 669 3399 761
+./aligned_img\prajwal\IMG-20220616-WA0006.png
+./aligned_img\prajwal\IMG-20220625-WA0073.png 1008 726 1094 827
+./aligned_img\prajwal\IMG-20220827-WA0007.png 1284 627 2121 1581
+./aligned_img\prajwal\IMG-20220827-WA0018.png
+./aligned_img\prajwal\IMG-20220827-WA0021.png
+./aligned_img\prajwal\IMG-20220827-WA0023.png 786 868 825 919
+./aligned_img\prajwal\IMG-20220827-WA0028.png 172 222 596 750
+./aligned_img\prajwal\IMG-20220914-WA0002.png 267 922 621 1355
+./aligned_img\prajwal\IMG-20220927-WA0014.png
+./aligned_img\prajwal\IMG-20220927-WA0031.png 790 185 893 307
+./aligned_img\prajwal\IMG-20220930-WA0006.png 246 501 395 664
+./aligned_img\prajwal\IMG-20221006-WA0010.png 1389 1173 1746 1575
+./aligned_img\prajwal\IMG-20221012-WA0017.png
+./aligned_img\prajwal\IMG-20221017-WA0030.png 43 43 194 229
+./aligned_img\prajwal\IMG-20221022-WA0021.png 1758 639 2592 1652
+./aligned_img\prajwal\IMG-20221022-WA0032.png -11 331 393 804
+./aligned_img\prajwal\IMG-20221028-WA0017.png
+./aligned_img\prajwal\IMG-20221110-WA0016.png 173 205 297 353
+./aligned_img\prajwal\IMG-20221110-WA0023.png 111 85 283 313
+./aligned_img\prajwal\IMG-20221121-WA0002.png 7 246 247 546
+./aligned_img\prajwal\IMG-20221121-WA0007.png 251 70 534 439
+./aligned_img\prajwal\IMG-20221203-WA0008.png 111 519 331 783
+./aligned_img\prajwal\IMG-20221208-WA0001.png 426 277 1309 1203
+./aligned_img\prajwal\IMG-20221214-WA0006.png
+./aligned_img\prajwal\IMG-20221214-WA0012.png 306 339 723 876
+./aligned_img\prajwal\IMG-20221214-WA0041.png 481 444 678 690
+./aligned_img\prajwal\IMG-20221220-WA0013.png
+./aligned_img\prajwal\IMG-20221227-WA0004.png 498 180 562 256
+./aligned_img\prajwal\IMG-20221227-WA0006.png 151 191 284 358
+./aligned_img\prajwal\IMG-20221227-WA0007.png 109 337 245 512
+./aligned_img\prajwal\IMG-20221227-WA0008.png 213 287 360 465
+./aligned_img\prajwal\IMG-20221227-WA0009.png 354 254 458 383
+./aligned_img\prajwal\IMG-20221227-WA0025.png 307 304 409 431
+./aligned_img\prajwal\IMG-20230108-WA0014.png 134 233 211 335
+./aligned_img\prajwal\IMG-20230108-WA0015.png 284 491 450 715
+./aligned_img\prajwal\IMG-20230109-WA0004.png 155 1024 264 1127
+./aligned_img\prajwal\IMG-20230109-WA0006.png 248 420 588 846
+./aligned_img\prajwal\IMG-20230209-WA0000.png 13 7 156 166

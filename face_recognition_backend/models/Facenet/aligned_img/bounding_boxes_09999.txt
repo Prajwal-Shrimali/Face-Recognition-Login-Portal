@@ -1,0 +1,3 @@
+./aligned_img\om\20221201_113531.png
+./aligned_img\om\20230213_181352.png
+./aligned_img\om\20240125_133419.png
