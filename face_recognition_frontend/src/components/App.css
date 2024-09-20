@@ -52,9 +52,42 @@ body {
   font-size: 16px;
   cursor: pointer;
   width: 100%; /* Make the button the same width as the input */
-  
 }
 
 .loginButton:hover {
   background-color: #45a049;
+}
+
+.startVideoButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;  /* Ensure text is centered */
+  transition: background-color 0.3s ease;  /* Smooth background color transition */
+  margin-bottom: 1rem;
+  /* margin-top: 1rem; */
+}
+
+.startVideoButton:hover {
+  background-color: #45a049;  /* Darker green on hover */
+}
+
+.startVideoButton:active {
+  background-color: #3e8e41;  /* Even darker when the button is pressed */
+}
+
+/* Video Feed Styling */
+.videoFeed {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: black;
+  display: none; /* Initially hidden */
 }
