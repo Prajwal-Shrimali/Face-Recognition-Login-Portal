@@ -146,6 +146,7 @@ body {
   cursor: pointer; /* Pointer cursor on hover */
   font-size: 16px; /* Font size for button */
   width: 100%; /* Full width */
+  margin-bottom: 1rem;
 }
 
 .ReactModal__Content button:hover {

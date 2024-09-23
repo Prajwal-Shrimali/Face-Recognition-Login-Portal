@@ -182,7 +182,7 @@ function App() {
         }
       );
       console.log('Response:', response.data);
-      setAuthMessage(`Authentication Successful for user ${username.toUpperCase(username)}`);
+      setAuthMessage(`Authentication Successful for user ${username}`);
     } catch (error) {
       console.error('There was an error!', error.response ? error.response.data : error.message);
       setAuthMessage('Authentication failed. Please try again.');
@@ -228,6 +228,11 @@ function App() {
         </div>
         <h2>Authentication Result</h2>
         <p>{authMessage}</p>
+        {authMessage.startsWith('Authentication Successful') ? (
+            <button onClick={() => {
+              console.log("ROBIN HELP ME")
+            }}>Open IAM USER {username}</button>
+          ) : (<></>)}
         <button onClick={closeModal}>Close</button>
       </Modal>
     </div>
