@@ -91,3 +91,98 @@ body {
   background-color: black;
   display: none; /* Initially hidden */
 }
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authImage {
+  width: 75px;
+  height: auto;
+}
+
+/* Modal Styles */
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+}
+
+.ReactModal__Content {
+  background-color: rgba(30, 30, 30, 0.9); /* Modal background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  max-width: 400px; /* Max width for the modal */
+  width: 90%; /* Responsive width */
+  max-height: 300px;
+  height: 90%;
+  margin: auto; /* Centering */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+/* Modal Heading */
+.ReactModal__Content h2 {
+  color: #000; /* White color for heading */
+  margin-bottom: 10px; /* Spacing below heading */
+  font-size: 24px; /* Font size for the heading */
+  text-align: center; /* Center the heading */
+}
+
+/* Modal Text */
+.ReactModal__Content p {
+  color: #474747; /* Light gray color for the message */
+  text-align: center; /* Center text */
+  font-size: 16px; /* Font size for the message */
+  margin-bottom: 20px; /* Spacing below message */
+}
+
+/* Modal Close Button */
+.ReactModal__Content button {
+  background-color: #4caf50; /* Button background */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for button */
+  width: 100%; /* Full width */
+}
+
+.ReactModal__Content button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Modal Close Button */
+.ReactModal__Content button {
+  background-color: #4caf50; /* Button background */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for button */
+  width: 100%; /* Full width */
+  transition: background-color 0.3s ease, transform 0.2s; /* Smooth transitions */
+}
+
+.ReactModal__Content button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.ReactModal__Content button:active {
+  background-color: #3e8e41; /* Even darker when the button is pressed */
+  transform: scale(0.98); /* Slightly shrink on press */
+}
+
+/* Additional styling for close button to differentiate it */
+.ReactModal__Content button.close {
+  background-color: #f44336; /* Red background for close button */
+}
+
+.ReactModal__Content button.close:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
+
+.ReactModal__Content button.close:active {
+  background-color: #d32f2f; /* Even darker when pressed */
+}
