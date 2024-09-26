@@ -9,7 +9,9 @@ import mysql.connector as mysql
 #     LAST_NAME VARCHAR(50) NOT NULL,
 #     USERNAME VARCHAR(100) NOT NULL UNIQUE,
 #     IAM_USERNAME VARCHAR(100) NOT NULL UNIQUE,
-#     IAM_PASSWORD VARCHAR(255) NOT NULL
+#     IAM_PASSWORD VARCHAR(255) NOT NULL,
+#     APPLICATION_ACCESS_TOKEN VARCHAR(255) NOT NULL UNIQUE,
+#     APPLICATION_SECRET_ACCESS_TOKEN VARCHAR(255) NOT NULL UNIQUE
 # );
 
 def getUserCredentials(username):
@@ -21,7 +23,7 @@ def getUserCredentials(username):
             database="AWSProject"
         )
         cursor = db.cursor()
-        query = "SELECT IAM_USERNAME, IAM_PASSWORD FROM USERLOGIN_CREDENTIALS WHERE USERNAME = %s"
+        query = "SELECT APPLICATION_ACCESS_TOKEN, APPLICATION_SECRET_ACCESS_TOKEN FROM USERLOGIN_CREDENTIALS WHERE USERNAME = %s"
         cursor.execute(query, (username,))
         row = cursor.fetchone()
         cursor.close()

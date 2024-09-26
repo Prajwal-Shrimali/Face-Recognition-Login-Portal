@@ -13,6 +13,7 @@ function App() {
   const [stateOfButton, setStateOfButton] = useState('Login');
   const [authMessage, setAuthMessage] = useState('');
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [loginURL, setLoginURL] = useState('');
   const videoRef = useRef(null);
 
   const startVideo = () => {
@@ -64,6 +65,30 @@ function App() {
     }, 3000);  // Capture for 3 seconds
   };
 
+  // const sendFramesToServer = async (frames) => {
+  //   try {
+  //     const response = await axios.post(
+  //       'http://localhost:5000/login',
+  //       { username, frames },  // Send the captured frames and username to the server
+  //       {
+  //         headers: {
+  //           'Content-Type': 'application/json',
+  //         },
+  //       }
+  //     );
+  //     console.log('Response:', response.data);
+  //     setAuthMessage(`Authentication Successful for user ${username}`);
+  //     setLoginURL(response.data.loginURL);
+  //   } catch (error) {
+  //     console.error('There was an error!', error.response ? error.response.data : error.message);
+  //     setAuthMessage('Authentication failed. Please try again.');
+  //   }
+
+  //   setButtonColor('#4CAF50');
+  //   setStateOfButton('Login');
+  //   setIsModalOpen(true); // Open the modal with the result
+  // };
+
   const sendFramesToServer = async (frames) => {
     try {
       const response = await axios.post(
@@ -76,7 +101,14 @@ function App() {
         }
       );
       console.log('Response:', response.data);
-      setAuthMessage(`Authentication Successful for user ${username}`);
+
+      if (response.status === 200) {
+        const { loginURL } = response.data; // Extract the login URL from the response
+        setLoginURL(loginURL);
+        setAuthMessage(`Authentication Successful for user ${username}`);
+      } else {
+        setAuthMessage(response.data.message || 'Authentication failed. Please try again.');
+      }
     } catch (error) {
       console.error('There was an error!', error.response ? error.response.data : error.message);
       setAuthMessage('Authentication failed. Please try again.');
@@ -86,6 +118,7 @@ function App() {
     setStateOfButton('Login');
     setIsModalOpen(true); // Open the modal with the result
   };
+
 
   const closeModal = () => {
     setIsModalOpen(false);
@@ -117,16 +150,31 @@ function App() {
           {authMessage.startsWith('Authentication Successful') ? (
             <img src={checkedImg} alt="Success" className='authImage' />
           ) : (
-            <img src={crossImg} alt="Failure" className='authImage'/>
+            <img src={crossImg} alt="Failure" className='authImage' />
           )}
         </div>
         <h2>Authentication Result</h2>
         <p>{authMessage}</p>
-        {authMessage.startsWith('Authentication Successful') ? (
-            <button onClick={() => {
-              console.log("ROBIN HELP ME")
-            }}>Open IAM USER {username}</button>
-          ) : (<></>)}
+        <Modal isOpen={isModalOpen} onRequestClose={closeModal}>
+          <div className='imageContainer'>
+            {authMessage.startsWith('Authentication Successful') ? (
+              <img src={checkedImg} alt="Success" className='authImage' />
+            ) : (
+              <img src={crossImg} alt="Failure" className='authImage' />
+            )}
+          </div>
+          <h2>Authentication Result</h2>
+          <p>{authMessage}</p>
+
+          {authMessage.startsWith('Authentication Successful') && loginURL ? (
+            <a href={loginURL} target="_blank" rel="noopener noreferrer">
+              <button>Open IAM USER {username}</button>
+            </a>
+          ) : null}
+
+          <button onClick={closeModal}>Close</button>
+        </Modal>
+
         <button onClick={closeModal}>Close</button>
       </Modal>
     </div>

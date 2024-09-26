@@ -5,6 +5,7 @@ from flask import Flask, request, jsonify
 from models.faceRecognitionTogether import run_models
 from flask_cors import CORS
 from getUserData import getUserCredentials
+from getUserLoginLink import getUserLoginLink
 import os
 
 app = Flask(__name__)
@@ -47,8 +48,9 @@ def login():
             if user_credentials is None:
                 return jsonify({'message': 'User credentials not found.'}), 404
             
-            usernameIAM, passwordIAM = user_credentials
-            return jsonify({'message': f'Login successful for user: {username}', 'username': usernameIAM, 'password': passwordIAM}), 200
+            accessToken, scecretAccessToken = user_credentials
+            loginURL = getUserLoginLink(accessToken, scecretAccessToken, 'arn:aws:iam::864899838340:role/awsProjectUserRole')
+            return jsonify({'message': f'Login successful for user: {username}', 'username': accessToken, 'password': scecretAccessToken, "loginURL" : loginURL}), 200
         else:
             return jsonify({'message': f'Face recognition failed for user: {username}. Recognized as: {recognized_name}'}), 403
 
