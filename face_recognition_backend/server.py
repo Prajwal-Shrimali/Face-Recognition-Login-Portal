@@ -48,18 +48,18 @@ def login():
             if user_credentials is None:
                 return jsonify({'message': 'User credentials not found.'}), 404
             
-            accessToken, scecretAccessToken = user_credentials
+            firstName, lastName, IAMUserName, accessToken, scecretAccessToken = user_credentials
             loginURL = getUserLoginLink(accessToken, scecretAccessToken, 'arn:aws:iam::864899838340:role/awsProjectUserRole')
-            return jsonify({'message': f'Login successful for user: {username}', 'username': accessToken, 'password': scecretAccessToken, "loginURL" : loginURL}), 200
+            return jsonify({'message': f'Login successful for user: {username}', "firstName" : firstName, "lastName" : lastName, "IAMUserName" : IAMUserName, 'accessToken': accessToken, 'scecretAccessToken': scecretAccessToken, "loginURL" : loginURL}), 200
         else:
             return jsonify({'message': f'Face recognition failed for user: {username}. Recognized as: {recognized_name}'}), 403
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
-    # finally:
-    #     if os.path.exists(video_filename):
-    #         os.remove(video_filename)
+    finally:
+        if os.path.exists(video_filename):
+            os.remove(video_filename)
 
 if __name__ == '__main__':
     app.run(debug=True)

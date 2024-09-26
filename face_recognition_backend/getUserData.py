@@ -23,7 +23,7 @@ def getUserCredentials(username):
             database="AWSProject"
         )
         cursor = db.cursor()
-        query = "SELECT APPLICATION_ACCESS_TOKEN, APPLICATION_SECRET_ACCESS_TOKEN FROM USERLOGIN_CREDENTIALS WHERE USERNAME = %s"
+        query = "SELECT FIRST_NAME, LAST_NAME, IAM_USERNAME, APPLICATION_ACCESS_TOKEN, APPLICATION_SECRET_ACCESS_TOKEN FROM USERLOGIN_CREDENTIALS WHERE USERNAME = %s"
         cursor.execute(query, (username,))
         row = cursor.fetchone()
         cursor.close()
