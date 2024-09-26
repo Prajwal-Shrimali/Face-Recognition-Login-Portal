@@ -49,7 +49,7 @@ def login():
                 return jsonify({'message': 'User credentials not found.'}), 404
             
             firstName, lastName, IAMUserName, accessToken, scecretAccessToken = user_credentials
-            loginURL = getUserLoginLink(accessToken, scecretAccessToken, 'arn:aws:iam::864899838340:role/awsProjectUserRole')
+            loginURL = getUserLoginLink(accessToken, scecretAccessToken, 'arn:aws:iam::864899838340:role/awsProjectUserRole', IAMUserName)
             return jsonify({'message': f'Login successful for user: {username}', "firstName" : firstName, "lastName" : lastName, "IAMUserName" : IAMUserName, 'accessToken': accessToken, 'scecretAccessToken': scecretAccessToken, "loginURL" : loginURL}), 200
         else:
             return jsonify({'message': f'Face recognition failed for user: {username}. Recognized as: {recognized_name}'}), 403

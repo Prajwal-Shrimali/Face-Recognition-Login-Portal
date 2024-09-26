@@ -48,7 +48,7 @@ def construct_federated_url(assume_role_arn, session_name, issuer, sts_client):
     federated_url = f"{aws_federated_signin_endpoint}?{query_string}"
     return federated_url
 
-def getUserLoginLink(userAccessKey, userSecretAccessKey, roleArn):
+def getUserLoginLink(userAccessKey, userSecretAccessKey, roleArn, sessionName):
     sts_client = boto3.client(
         'sts',
         aws_access_key_id = userAccessKey,
@@ -56,7 +56,7 @@ def getUserLoginLink(userAccessKey, userSecretAccessKey, roleArn):
     )
     
     role_arn = roleArn
-    session_name = 'TestSession'
+    session_name = sessionName
     issuer = 'MyApp'
 
     login_url = construct_federated_url(role_arn, session_name, issuer, sts_client)
