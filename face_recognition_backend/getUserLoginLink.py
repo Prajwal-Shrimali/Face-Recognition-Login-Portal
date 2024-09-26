@@ -61,6 +61,3 @@ def getUserLoginLink(userAccessKey, userSecretAccessKey, roleArn, sessionName):
 
     login_url = construct_federated_url(role_arn, session_name, issuer, sts_client)
     return login_url
-    # print(f"Login URL: {login_url}")
-
-# getUserLoginLink("AKIA4SYAMGGCEDAKEOXY", "FY+3jumrqK7C61vfF514G/SaCmiRqY/iIZNsEkJu", "arn:aws:iam::864899838340:role/awsProjectUserRole")
