@@ -1,0 +1,84 @@
+./aligned_img\ishani\20211106_192404.png 753 199 1279 860
+./aligned_img\ishani\20211117_100158.png 2488 716 2516 751
+./aligned_img\ishani\20220105_144423.png 457 434 1345 1634
+./aligned_img\ishani\20221004_161424.png
+./aligned_img\ishani\20230304_182704.png 2164 984 2524 1401
+./aligned_img\ishani\20230308_204413.png 562 2137 585 2163
+./aligned_img\ishani\20230308_204550.png 1529 790 1595 867
+./aligned_img\ishani\20230426_151432.png 1721 775 1818 894
+./aligned_img\ishani\20230426_151519.png 215 204 357 399
+./aligned_img\ishani\20230811_164747.png 1729 1073 2029 1382
+./aligned_img\ishani\20231104_145735.png 1551 -284 2910 1353
+./aligned_img\ishani\20231112_203201.png 1054 480 1375 861
+./aligned_img\ishani\20231227_164627.png 1896 272 1916 294
+./aligned_img\ishani\20240214_224512.png 282 -4 2547 2094
+./aligned_img\ishani\20240214_224722.png 280 2144 301 2170
+./aligned_img\ishani\20240307_224910.png 2970 958 3143 1196
+./aligned_img\ishani\20240315_110611.png
+./aligned_img\ishani\20240509_181621.png 1596 306 2602 1659
+./aligned_img\ishani\IMG-20191217-WA0143.png 371 285 603 596
+./aligned_img\ishani\IMG-20201208-WA0009.png 657 317 712 388
+./aligned_img\ishani\IMG-20210307-WA0019.png 177 258 361 513
+./aligned_img\ishani\IMG-20221021-WA0017.png 341 245 515 432
+./aligned_img\ishani\IMG-20230105-WA0001.png 458 498 577 652
+./aligned_img\ishani\IMG-20230105-WA0002.png 622 597 751 765
+./aligned_img\ishani\IMG-20230105-WA0005.png 559 202 878 576
+./aligned_img\ishani\IMG-20230105-WA0006.png 478 426 887 961
+./aligned_img\ishani\IMG-20230105-WA0021.png 281 283 404 446
+./aligned_img\ishani\IMG-20230128-WA0018.png 569 1299 618 1354
+./aligned_img\ishani\IMG-20230218-WA0003.png 280 390 500 647
+./aligned_img\ishani\IMG-20230304-WA0029.png 343 302 500 497
+./aligned_img\ishani\IMG-20230601-WA0030.png 93 321 307 619
+./aligned_img\ishani\IMG-20230601-WA0033.png 308 406 547 721
+./aligned_img\ishani\IMG-20230804-WA0017.png 439 68 553 220
+./aligned_img\ishani\IMG-20230804-WA0021.png 411 77 547 264
+./aligned_img\ishani\IMG-20230918-WA0004.png 592 130 678 238
+./aligned_img\ishani\IMG-20230918-WA0006.png 244 406 293 459
+./aligned_img\ishani\IMG-20240111-WA0011.png 437 249 477 302
+./aligned_img\ishani\IMG-20240111-WA0028.png 590 878 645 937
+./aligned_img\ishani\IMG-20240306-WA0010.png 1167 2395 1552 2790
+./aligned_img\ishani\IMG-20240306-WA0041.png 1202 1040 1617 1591
+./aligned_img\ishani\IMG-20240307-WA0135.png 1521 2224 1546 2256
+./aligned_img\ishani\IMG-20240307-WA0141.png 1290 1629 1655 2133
+./aligned_img\ishani\IMG-20240310-WA0012.png 1736 1237 2345 2020
+./aligned_img\ishani\IMG-20240731-WA0001.png 205 76 649 687
+./aligned_img\ishani\IMG20201212165459.png 2895 416 3187 804
+./aligned_img\ishani\IMG20201212165604.png 670 362 999 863
+./aligned_img\ishani\IMG_20180325_184500.png 1945 588 2431 1234
+./aligned_img\ishani\IMG_20200815_084239_8.png 1408 1419 1673 1771
+./aligned_img\ishani\IMG_20200815_100003_1.png 2110 903 2319 1179
+./aligned_img\ishani\IMG_20200830_123311_0.png 3072 646 4458 2401
+./aligned_img\ishani\IMG_20200830_131425_5.png 3067 1168 4184 2579
+./aligned_img\ishani\IMG_20201115_152508_537.png 2920 699 3222 1127
+./aligned_img\ishani\IMG_20201115_152519_092.png 1964 819 2183 1102
+./aligned_img\ishani\Screenshot 2024-09-18 231344.png 320 364 418 497
+./aligned_img\ishani\Screenshot 2024-09-18 231446.png 310 374 405 498
+./aligned_img\ishani\Screenshot 2024-09-18 232241.png 218 165 272 234
+./aligned_img\ishani\Screenshot_20230809-140138_WhatsApp.png 419 172 704 559
+./aligned_img\om\20221201_113531.png
+./aligned_img\om\20230213_181352.png
+./aligned_img\om\20240125_133419.png
+./aligned_img\om\20240125_133425.png
+./aligned_img\om\20240126_234619.png
+./aligned_img\om\20240127_071740.png
+./aligned_img\om\IMG-20230804-WA0014.png
+./aligned_img\om\IMG-20231017-WA0021.png
+./aligned_img\prajwal\20201027_173316.png
+./aligned_img\prajwal\20210919_181524.png
+./aligned_img\prajwal\20210919_181525.png
+./aligned_img\prajwal\20220118_145342.png
+./aligned_img\prajwal\20220118_151625.png
+./aligned_img\prajwal\20220715_101709.png
+./aligned_img\prajwal\20220715_101757.png
+./aligned_img\prajwal\20220715_101758.png
+./aligned_img\prajwal\20220923_091330.png
+./aligned_img\prajwal\20221227_171235.png
+./aligned_img\prajwal\20221227_171239.png
+./aligned_img\prajwal\IMG-20220616-WA0006.png
+./aligned_img\prajwal\IMG-20220827-WA0018.png
+./aligned_img\prajwal\IMG-20220827-WA0021.png
+./aligned_img\prajwal\IMG-20220927-WA0014.png
+./aligned_img\prajwal\IMG-20221012-WA0017.png
+./aligned_img\prajwal\IMG-20221028-WA0017.png
+./aligned_img\prajwal\IMG-20221214-WA0006.png
+./aligned_img\prajwal\IMG-20221220-WA0013.png
