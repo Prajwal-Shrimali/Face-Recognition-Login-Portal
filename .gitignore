@@ -2,3 +2,5 @@ face_recognition_backend/.venv
 face_recognition_backend/models/__pycache__
 face_recognition_frontend/node_modules
 face_recognition_backend/captured_video.avi
+face_recognition_backend/python
+face_recognition_backend/__pycache__
