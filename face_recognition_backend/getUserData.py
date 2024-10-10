@@ -17,11 +17,13 @@ import mysql.connector as mysql
 def getUserCredentials(username):
     try:
         db = mysql.connect(
-            host="localhost",
-            user="root",
-            passwd="Prajwal2608$",
-            database="AWSProject"
+            host="sql12.freesqldatabase.com",  # Host provided
+            user="sql12736715",                # Database user provided
+            passwd="ilGTZEzBHd",               # Database password provided
+            database="sql12736715",            # Database name provided
+            port=3306                          # MySQL default port
         )
+        
         cursor = db.cursor()
         query = "SELECT FIRST_NAME, LAST_NAME, IAM_USERNAME, APPLICATION_ACCESS_TOKEN, APPLICATION_SECRET_ACCESS_TOKEN FROM USERLOGIN_CREDENTIALS WHERE USERNAME = %s"
         cursor.execute(query, (username,))
