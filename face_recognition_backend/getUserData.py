@@ -17,10 +17,10 @@ import mysql.connector as mysql
 def getUserCredentials(username):
     try:
         db = mysql.connect(
-            host="sql12.freesqldatabase.com",  # Host provided
-            user="sql12736715",                # Database user provided
-            passwd="ilGTZEzBHd",               # Database password provided
-            database="sql12736715",            # Database name provided
+            host="",  # Host provided
+            user="",                # Database user provided
+            passwd="",               # Database password provided
+            database="",            # Database name provided
             port=3306                          # MySQL default port
         )
         
