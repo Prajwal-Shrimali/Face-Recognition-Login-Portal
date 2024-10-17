@@ -82,7 +82,8 @@ function App() {
       // console.log('Response:', response.data);
 
       if (response.status === 200) {
-        const { firstName, lastName, IAMUserName, loginURL } = response.data; // Extract firstName, lastName, and login URL
+        const { firstName, lastName, IAMUserName, loginURL, data } = response.data; // Extract firstName, lastName, and login URL
+        console.log(data);
         setFirstName(firstName); 
         setLastName(lastName); 
         setLoginURL(loginURL);

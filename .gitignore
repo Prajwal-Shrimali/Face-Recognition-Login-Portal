@@ -5,4 +5,8 @@ face_recognition_backend/captured_video.avi
 face_recognition_backend/python
 face_recognition_backend/__pycache__
 face_recognition_backend/python.zip
+face_recognition_backend/lambda_function.zip
+face_recognition_backend/modelss
+face_recognition_backend/models/__pycache__
+face_recognition_backend/models/Facenet/__pycache__
 db_Credentials.txt
