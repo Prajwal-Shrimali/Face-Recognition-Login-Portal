@@ -1,3 +1,4 @@
+import os
 import cv2
 import numpy as np
 import base64
@@ -6,10 +7,16 @@ from models.faceRecognitionTogether import run_models
 from flask_cors import CORS
 from getUserData import getUserCredentials
 from getUserLoginLink import getUserLoginLink
-import os
+
+# Force TensorFlow to use the CPU
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 app = Flask(__name__)
 CORS(app)
+
+@app.route('/')
+def home():
+    return "Welcome to Face Recognition Software Portal"
 
 @app.route('/login', methods=['POST'])
 def login():
@@ -62,4 +69,4 @@ def login():
             os.remove(video_filename)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
