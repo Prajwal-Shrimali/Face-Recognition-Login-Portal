@@ -8,4 +8,7 @@ face_recognition_backend/python.zip
 face_recognition_backend/lambda_function.zip
 face_recognition_backend/modelss
 face_recognition_backend/models/__pycache__
+face_recognition_backend_ec2
+face_recognition_backend_ec2_windows
+keyPairVol2.pem
 db_Credentials.txt

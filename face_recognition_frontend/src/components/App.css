@@ -112,6 +112,7 @@ body {
   background-color: rgba(30, 30, 30, 0.9); /* Modal background */
   border-radius: 15px; /* Rounded corners */
   padding: 20px; /* Inner padding */
+  min-width: 300px;
   max-width: 400px; /* Max width for the modal */
   width: 90%; /* Responsive width */
   max-height: 330px;
